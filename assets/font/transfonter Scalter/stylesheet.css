@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Scalter';
+    src: url('Scalter-SerifCondensed.eot');
+    src: url('Scalter-SerifCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Scalter-SerifCondensed.woff2') format('woff2'),
+        url('Scalter-SerifCondensed.woff') format('woff'),
+        url('Scalter-SerifCondensed.ttf') format('truetype'),
+        url('Scalter-SerifCondensed.svg#Scalter-SerifCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

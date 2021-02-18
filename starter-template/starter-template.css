@@ -1,0 +1,99 @@
+
+
+/*-------font --------*/ 
+
+@font-face {
+    font-family: 'HelveticaOblique';
+    src: url('../assets/font/transfonter Helvetica/Helvetica-BoldOblique.eot');
+    src: url('../assets/font/transfonter Helvetica/Helvetica-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/transfonter Helvetica/Helvetica-BoldOblique.woff2') format('woff2'),
+        url('../assets/font/transfonter Helvetica/Helvetica-BoldOblique.woff') format('woff'),
+        url('../assets/font/transfonter Helvetica/Helvetica-BoldOblique.svg#Helvetica-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*------- body --------*/ 
+ 
+body {
+    background: #fff; 
+    color: black; 
+    font-family: "Helvetica";
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1;}
+
+.themed-grid-col {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+
+.themed-container {
+  padding: .75rem;
+  margin-bottom: 1.5rem;
+  background-color: rgba(0, 123, 255, .15);
+  border: 1px solid rgba(0, 123, 255, .2);
+}
+
+
+/*------- categories --------*/
+
+.linea  {
+    border: 1px solid black; 
+}
+hr {border: 1px solid black;}
+
+a { text-decoration: none;}
+
+a:hover {
+    font-family: 'HelveticaOblique';
+    font-weight: bold;
+    font-style: italic;
+	text-decoration: none;}
+
+
+h1, h2,h4, h5 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1,3;}
+
+#container {
+    margin: 2em 2em auto 2em;
+    padding: 5em 2em 3em 1em;
+    position: absolute; 
+    bottom:0; 
+    left:0; 
+    right:0; }
+
+
+
+h6 {font-family: 'Helvetica'; 
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: dimgrey;}
+
+
+/*-------responsive --------*/ 
+@media only screen and (max-width: 576px) {
+    #categorie {padding-left:12px;padding-right: 12px;}
+	h1 { font-size: 30px;}}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    #categorie {padding-left:36px;padding-right: 36px;}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #categorie {padding-left:44px;padding-right: 44px;}
+	h1 { font-size: 55px;}
+}
+@media only screen and (min-width: 1024px) {
+    #categorie {padding-left: 82px; 
+    padding-right: 82px;}
+	h1 {font-size: 40px;}
+}
+
+
